@@ -28,7 +28,7 @@ def index():
         except:
             current_result = ""
 
-    return render_template("index3.html",
+    return render_template("a.html",
                            display=session["display"],
                            current_result=current_result,
                            current_expression=session["current_expression"],
